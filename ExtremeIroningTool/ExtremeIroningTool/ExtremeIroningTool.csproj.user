@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MVVM\Views\AddArmyGroup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\ArmyConfigurator.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\AudioPlayer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\BattalionEditor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\Battle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\BottomPartArmyConfigurator.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\DivisionContructorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\DivisionForConstructor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\GeneralSelectionCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\SelectDivisionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\SelectGeneralWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\SelectImageWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\ViewCountrySelect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\ViewCountrySelectionCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\ViewMainMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\Views\ViewModifiers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MVVM\Views\AddArmyGroup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\ArmyConfigurator.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\AudioPlayer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\BattalionEditor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\Battle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\BottomPartArmyConfigurator.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\DivisionContructorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\DivisionForConstructor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\GeneralSelectionCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\SelectDivisionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\SelectGeneralWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\SelectImageWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\ViewCountrySelect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\ViewCountrySelectionCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\ViewMainMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Views\ViewModifiers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\CountrySelectionCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\MainMenuButtonStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\NoHoverForButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\PathsToImages.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,123 @@
+﻿<UserControl x:Class="ExtremeIroningTool.MVVM.Views.ViewCountrySelect"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExtremeIroningTool.MVVM.Views"
+             mc:Ignorable="d">
+    <Grid Background="{StaticResource LightGreen}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.0185185185*"/>
+            <RowDefinition Height="0.0555555555*"/>
+            <RowDefinition Height="0.0185185185*"/>
+            <RowDefinition Height="0.3611111111*"/>
+            <RowDefinition Height="0.0185185185*"/>
+            <RowDefinition Height="0.5092592594*"/>
+            <RowDefinition Height="0.0185185185*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.01041666667*"/>
+            <ColumnDefinition Width="0.97916666666*"/>
+            <ColumnDefinition Width="0.01041666667*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid x:Name="CountriesIcons"
+              Grid.Row="3"
+              Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.22967*"/>
+                <ColumnDefinition Width="0.0271*"/>
+                <ColumnDefinition Width="0.22967*"/>
+                <ColumnDefinition Width="0.0271*"/>
+                <ColumnDefinition Width="0.22967*"/>
+                <ColumnDefinition Width="0.0271*"/>
+                <ColumnDefinition Width="0.22967*"/>
+            </Grid.ColumnDefinitions>
+            
+            <local:ViewCountrySelectionCard Grid.Column="0" x:Name="GBR"/>
+            <local:ViewCountrySelectionCard Grid.Column="2" x:Name="FRA"/>
+            <local:ViewCountrySelectionCard Grid.Column="4" x:Name="GER"/>
+            <local:ViewCountrySelectionCard Grid.Column="6" x:Name="SOV"/>
+
+            <Image Source="./../../Images/Button Icons/firstCountry.png"
+                   Width="50"
+                   Visibility="{Binding firstSignVisibility}"
+                   x:Name="firstCountry"
+                   Grid.Column="{Binding firstSignColumn}"
+                   Height="50"
+                   Margin="10"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"/>
+            <Image Source="./../../Images/Button Icons/secondCountry.png"
+                   Width="50"
+                   x:Name="secondCountry"
+                   Visibility="{Binding secondSignVisibility}"
+                   Grid.Column="{Binding secondSignColumn}"
+                   Height="50"
+                   Margin="10"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"/>
+        </Grid>
+        <Grid x:Name="Description"
+              Grid.Row="5"
+              Grid.Column="1"
+              Background="{StaticResource DarkGreen}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.0489*"/>
+                <RowDefinition Height="0.2681*"/>
+                <RowDefinition Height="0.0489*"/>
+                <RowDefinition Height="0.58317*"/>
+                <RowDefinition Height="0.0489*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.0131868*"/>
+                <ColumnDefinition Width="0.2032967*"/>
+                <ColumnDefinition Width="0.033846*"/>
+                <ColumnDefinition Width="0.7445*"/>
+                <ColumnDefinition Width="0.0131868*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding CountryPosterPath}"
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   Grid.RowSpan="3"
+                   />
+            <TextBlock Grid.Row="1"
+                       Grid.Column="3"
+                       FontFamily="JetBrains Mono"
+                       FontSize="30"
+                       Text="{Binding CountryName}"
+                       Foreground="White"/>
+            <TextBlock Grid.Row="3"
+                       Grid.Column="3"
+                       FontFamily="JetBrains Mono"
+                       FontSize="20"
+                       TextWrapping="Wrap"
+                       Text="{Binding CountryDescription}"
+                       Foreground="White"/>
+        </Grid>
+        <Grid x:Name="Buttons"
+              Grid.Row="1"
+              Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.24202127659574*"/>
+                <ColumnDefinition Width="0.51595744680852*"/>
+                <ColumnDefinition Width="0.24202127659574*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="BackButton"
+                    Grid.Column="0"
+                    Command="{Binding BackCountrySelectClickCommand}"
+                    Style="{StaticResource DefaultButton}">
+                Back
+            </Button>
+            <Button x:Name="ForwardButton"
+                    Grid.Column="2"
+                    Command="{Binding ForwardCountrySelectClickCommand}"
+                    Style="{StaticResource DefaultButton}">
+                Forward
+            </Button>
+            <TextBlock Text="Country Selection"
+                       Grid.Column="1"
+                       Style="{StaticResource Header}"/>
+        </Grid>
+    </Grid>
+</UserControl>

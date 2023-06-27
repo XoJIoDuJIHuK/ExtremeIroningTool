@@ -1,0 +1,113 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "ExtremeIroningDatabaseContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "re",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "db",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Admins]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Armies]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Army groups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Battalions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contents of armies]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contents of army groups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contents of divisions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Countries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Divisions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Generals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Modifiers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Paths to Army icons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Paths to ArmyGroup icons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Paths to Division icons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Paths to Modifiers icons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TerrainTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tracks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Unit-specific Attack Adjusters]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Unit-specific Defense Adjusters]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "xojiodujihuk\\msql_server_v1.ExtremeIroningDatabase.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

@@ -1,0 +1,143 @@
+﻿<UserControl x:Class="ExtremeIroningTool.MVVM.Views.ViewMainMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExtremeIroningTool.MVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="864" d:DesignWidth="1536">
+    <Grid Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="1"
+                    Grid.Row="1"
+              Background="{StaticResource LightGreen}"
+              VerticalAlignment="Center">
+
+            <StackPanel x:Name="Buttons"
+                        Visibility="Visible"
+                        Margin="10"
+                        VerticalAlignment="Center">
+                <Button x:Name="StartButton"
+                    Command="{Binding StartCommand}"
+                    Style="{StaticResource DefaultButton}"
+                    Content="Start"
+                    Margin="0 0 0 10"/>
+
+                <Button x:Name="EditBattalionsButton"
+                    Command="{Binding EditBattalionsCommand}"
+                    Style="{StaticResource DefaultButton}"
+                    Content="Battalion editor"
+                    Visibility="Collapsed"
+                    Margin="0 0 0 10"/>
+
+                <Button x:Name="LoginButton"
+                    Command="{Binding ShowLoginMenu}"
+                    Style="{StaticResource DefaultButton}"
+                    Content="Log in as admin"
+                    Margin="0 0 0 10"/>
+
+                <Button x:Name="ExitButton"
+                    Command="{Binding ExitCommand}"
+                    Style="{StaticResource DefaultButton}"
+                    Content="Exit"/>
+
+            </StackPanel>
+
+            <StackPanel x:Name="Login"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="10"
+                        Visibility="Collapsed"
+                        VerticalAlignment="Center">
+
+                <TextBlock Text="Login"
+                       Style="{StaticResource Header}"/>
+                <TextBox x:Name="LoginTextBox"
+                     FontSize="20"
+                     HorizontalContentAlignment="Center"/>
+
+                <TextBlock Text="Password"
+                       Style="{StaticResource Header}"/>
+                <PasswordBox x:Name="PasswordTextBox"
+                     FontSize="20"
+                     HorizontalContentAlignment="Center"
+                     Margin="0 0 0 20"/>
+
+                <TextBlock x:Name="ErrorTextBlock"
+                       Text="Invalid login || password"
+                       Foreground="Red"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Visibility="Collapsed"
+                       Margin="0 0 0 20"
+                       FontSize="20"/>
+
+                <Grid Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type StackPanel}}}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.45*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                        <ColumnDefinition Width="0.45*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0"
+                        Content="Log in"
+                        Style="{StaticResource DefaultButton}"
+                        Background="{StaticResource PaleYellow}"
+                        Foreground="Black"
+                        Command="{Binding LogIn}"/>
+                    <Button Grid.Column="2"
+                        Content="Cancel"
+                        Style="{StaticResource DefaultButton}"
+                        Background="{StaticResource PaleYellow}"
+                        Foreground="Black"
+                        Command="{Binding CancelLogIn}"/>
+
+                </Grid>
+            </StackPanel>
+
+        </Grid>
+
+        <StackPanel Grid.Row="2"
+                    Grid.Column="0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Bottom"
+                    Orientation="Horizontal">
+
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Width" Value="60"/>
+                    <Setter Property="Height" Value="60"/>
+                    <Setter Property="Background" Value="{StaticResource PaleYellow}"/>
+                </Style>
+            </StackPanel.Resources>
+
+            <Button Command="{Binding PlayPreviousBackgroundCommand}">
+                <Image Source="{Binding Source={StaticResource ArrowBack}}"/>
+            </Button>
+
+            <Button Command="{Binding MuteCommand}">
+                <Image Source="{Binding MutedIconSource}"/>
+            </Button>
+
+            <Button Command="{Binding PlayNextBackgroundCommand}">
+                <Image Source="{Binding Source={StaticResource ArrowBack}}">
+                    <Image.LayoutTransform>
+                        <ScaleTransform ScaleX="-1"/>
+                    </Image.LayoutTransform>
+                </Image>
+            </Button>
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>

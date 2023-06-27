@@ -1,0 +1,1490 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>Images\Button Icons\AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\Batallion Icons\**" />
+    <Compile Remove="Images\Medals\**" />
+    <EmbeddedResource Remove="Images\Batallion Icons\**" />
+    <EmbeddedResource Remove="Images\Medals\**" />
+    <None Remove="Images\Batallion Icons\**" />
+    <None Remove="Images\Medals\**" />
+    <Page Remove="Images\Batallion Icons\**" />
+    <Page Remove="Images\Medals\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Army Groups Icons\1.png" />
+    <None Remove="Images\Army Groups Icons\10.png" />
+    <None Remove="Images\Army Groups Icons\11.png" />
+    <None Remove="Images\Army Groups Icons\12.png" />
+    <None Remove="Images\Army Groups Icons\13.png" />
+    <None Remove="Images\Army Groups Icons\14.png" />
+    <None Remove="Images\Army Groups Icons\15.png" />
+    <None Remove="Images\Army Groups Icons\16.png" />
+    <None Remove="Images\Army Groups Icons\2.png" />
+    <None Remove="Images\Army Groups Icons\3.png" />
+    <None Remove="Images\Army Groups Icons\4.png" />
+    <None Remove="Images\Army Groups Icons\5.png" />
+    <None Remove="Images\Army Groups Icons\6.png" />
+    <None Remove="Images\Army Groups Icons\7.png" />
+    <None Remove="Images\Army Groups Icons\8.png" />
+    <None Remove="Images\Army Groups Icons\9.png" />
+    <None Remove="Images\Army Icons\1.png" />
+    <None Remove="Images\Army Icons\10.png" />
+    <None Remove="Images\Army Icons\11.png" />
+    <None Remove="Images\Army Icons\12.png" />
+    <None Remove="Images\Army Icons\13.png" />
+    <None Remove="Images\Army Icons\14.png" />
+    <None Remove="Images\Army Icons\15.png" />
+    <None Remove="Images\Army Icons\16.png" />
+    <None Remove="Images\Army Icons\17.png" />
+    <None Remove="Images\Army Icons\18.png" />
+    <None Remove="Images\Army Icons\19.png" />
+    <None Remove="Images\Army Icons\2.png" />
+    <None Remove="Images\Army Icons\20.png" />
+    <None Remove="Images\Army Icons\21.png" />
+    <None Remove="Images\Army Icons\22.png" />
+    <None Remove="Images\Army Icons\23.png" />
+    <None Remove="Images\Army Icons\24.png" />
+    <None Remove="Images\Army Icons\3.png" />
+    <None Remove="Images\Army Icons\4.png" />
+    <None Remove="Images\Army Icons\5.png" />
+    <None Remove="Images\Army Icons\6.png" />
+    <None Remove="Images\Army Icons\7.png" />
+    <None Remove="Images\Army Icons\8.png" />
+    <None Remove="Images\Army Icons\9.png" />
+    <None Remove="Images\Battalion Icons\A.png" />
+    <None Remove="Images\Battalion Icons\AA.png" />
+    <None Remove="Images\Battalion Icons\AAC.png" />
+    <None Remove="Images\Battalion Icons\AC.png" />
+    <None Remove="Images\Battalion Icons\Am.png" />
+    <None Remove="Images\Battalion Icons\AmTank.png" />
+    <None Remove="Images\Battalion Icons\ArmCar.png" />
+    <None Remove="Images\Battalion Icons\ArmCarRC.png" />
+    <None Remove="Images\Battalion Icons\AT.png" />
+    <None Remove="Images\Battalion Icons\ATC.png" />
+    <None Remove="Images\Battalion Icons\BicB.png" />
+    <None Remove="Images\Battalion Icons\Cam.png" />
+    <None Remove="Images\Battalion Icons\Cav.png" />
+    <None Remove="Images\Battalion Icons\CR.png" />
+    <None Remove="Images\Battalion Icons\E.png" />
+    <None Remove="Images\Battalion Icons\FH.png" />
+    <None Remove="Images\Battalion Icons\HAA.png" />
+    <None Remove="Images\Battalion Icons\HAmT.png" />
+    <None Remove="Images\Battalion Icons\HAT.png" />
+    <None Remove="Images\Battalion Icons\HFT.png" />
+    <None Remove="Images\Battalion Icons\HSPG.png" />
+    <None Remove="Images\Battalion Icons\HT.png" />
+    <None Remove="Images\Battalion Icons\Inf.png" />
+    <None Remove="Images\Battalion Icons\LAA.png" />
+    <None Remove="Images\Battalion Icons\LAmT.png" />
+    <None Remove="Images\Battalion Icons\LAT.png" />
+    <None Remove="Images\Battalion Icons\LC.png" />
+    <None Remove="Images\Battalion Icons\LFT.png" />
+    <None Remove="Images\Battalion Icons\LRC.png" />
+    <None Remove="Images\Battalion Icons\LSPG.png" />
+    <None Remove="Images\Battalion Icons\LT.png" />
+    <None Remove="Images\Battalion Icons\M.png" />
+    <None Remove="Images\Battalion Icons\MAA.png" />
+    <None Remove="Images\Battalion Icons\MAmT.png" />
+    <None Remove="Images\Battalion Icons\MAT.png" />
+    <None Remove="Images\Battalion Icons\MC.png" />
+    <None Remove="Images\Battalion Icons\Mech.png" />
+    <None Remove="Images\Battalion Icons\MFT.png" />
+    <None Remove="Images\Battalion Icons\MoAA.png" />
+    <None Remove="Images\Battalion Icons\MoAT.png" />
+    <None Remove="Images\Battalion Icons\MoSPG.png" />
+    <None Remove="Images\Battalion Icons\MoT.png" />
+    <None Remove="Images\Battalion Icons\Motor.png" />
+    <None Remove="Images\Battalion Icons\MotorA.png" />
+    <None Remove="Images\Battalion Icons\MotorAA.png" />
+    <None Remove="Images\Battalion Icons\MotorAT.png" />
+    <None Remove="Images\Battalion Icons\MotorRA.png" />
+    <None Remove="Images\Battalion Icons\MotorRC.png" />
+    <None Remove="Images\Battalion Icons\Mountaineers.png" />
+    <None Remove="Images\Battalion Icons\MP.png" />
+    <None Remove="Images\Battalion Icons\MSPG.png" />
+    <None Remove="Images\Battalion Icons\MT.png" />
+    <None Remove="Images\Battalion Icons\P.png" />
+    <None Remove="Images\Battalion Icons\PB.png" />
+    <None Remove="Images\Battalion Icons\RA.png" />
+    <None Remove="Images\Battalion Icons\RCC.png" />
+    <None Remove="Images\Battalion Icons\SC.png" />
+    <None Remove="Images\Battalion Icons\SHAA.png" />
+    <None Remove="Images\Battalion Icons\SHAT.png" />
+    <None Remove="Images\Battalion Icons\SHSPG.png" />
+    <None Remove="Images\Battalion Icons\SHT.png" />
+    <None Remove="Images\Battalion Icons\TDRA.png" />
+    <None Remove="Images\Button Icons\add army group.png" />
+    <None Remove="Images\Button Icons\add army.png" />
+    <None Remove="Images\Button Icons\add division.png" />
+    <None Remove="Images\Button Icons\add empty army group.png" />
+    <None Remove="Images\Button Icons\add track.png" />
+    <None Remove="Images\Button Icons\add track.svg" />
+    <None Remove="Images\Button Icons\AppIcon.png" />
+    <None Remove="Images\Button Icons\arrow back.png" />
+    <None Remove="Images\Button Icons\checkmark.png" />
+    <None Remove="Images\Button Icons\close.png" />
+    <None Remove="Images\Button Icons\edit.png" />
+    <None Remove="Images\Button Icons\error.jpg" />
+    <None Remove="Images\Button Icons\firstCountry.png" />
+    <None Remove="Images\Button Icons\floppy disc.png" />
+    <None Remove="Images\Button Icons\loupe.png" />
+    <None Remove="Images\Button Icons\muted.png" />
+    <None Remove="Images\Button Icons\no-repeat.png" />
+    <None Remove="Images\Button Icons\no-repeat.svg" />
+    <None Remove="Images\Button Icons\nullGeneral.png" />
+    <None Remove="Images\Button Icons\nullGeneral1.png" />
+    <None Remove="Images\Button Icons\pause.png" />
+    <None Remove="Images\Button Icons\pause.svg" />
+    <None Remove="Images\Button Icons\play.png" />
+    <None Remove="Images\Button Icons\play.svg" />
+    <None Remove="Images\Button Icons\repeat-all.png" />
+    <None Remove="Images\Button Icons\repeat-all.svg" />
+    <None Remove="Images\Button Icons\repeat-one.png" />
+    <None Remove="Images\Button Icons\repeat-one.svg" />
+    <None Remove="Images\Button Icons\secondCountry.png" />
+    <None Remove="Images\Button Icons\shuffle off.png" />
+    <None Remove="Images\Button Icons\shuffle on.png" />
+    <None Remove="Images\Button Icons\shuffle.png" />
+    <None Remove="Images\Button Icons\shuffle.svg" />
+    <None Remove="Images\Button Icons\spinning-circles.gif" />
+    <None Remove="Images\Button Icons\success.png" />
+    <None Remove="Images\Button Icons\switch track left.png" />
+    <None Remove="Images\Button Icons\switch track left.svg" />
+    <None Remove="Images\Button Icons\switch track right.png" />
+    <None Remove="Images\Button Icons\switch track right.svg" />
+    <None Remove="Images\Button Icons\trash bucket.png" />
+    <None Remove="Images\Button Icons\triangle to left.png" />
+    <None Remove="Images\Button Icons\triangle to left.svg" />
+    <None Remove="Images\Button Icons\triangle to right.png" />
+    <None Remove="Images\Button Icons\triangle to right.svg" />
+    <None Remove="Images\Button Icons\unmuted.png" />
+    <None Remove="Images\Division Icons\1.png" />
+    <None Remove="Images\Division Icons\10.png" />
+    <None Remove="Images\Division Icons\11.png" />
+    <None Remove="Images\Division Icons\12.png" />
+    <None Remove="Images\Division Icons\13.png" />
+    <None Remove="Images\Division Icons\14.png" />
+    <None Remove="Images\Division Icons\15.png" />
+    <None Remove="Images\Division Icons\16.png" />
+    <None Remove="Images\Division Icons\17.png" />
+    <None Remove="Images\Division Icons\18.png" />
+    <None Remove="Images\Division Icons\19.png" />
+    <None Remove="Images\Division Icons\2.png" />
+    <None Remove="Images\Division Icons\20.png" />
+    <None Remove="Images\Division Icons\21.png" />
+    <None Remove="Images\Division Icons\22.png" />
+    <None Remove="Images\Division Icons\23.png" />
+    <None Remove="Images\Division Icons\24.png" />
+    <None Remove="Images\Division Icons\25.png" />
+    <None Remove="Images\Division Icons\3.png" />
+    <None Remove="Images\Division Icons\4.png" />
+    <None Remove="Images\Division Icons\5.png" />
+    <None Remove="Images\Division Icons\6.png" />
+    <None Remove="Images\Division Icons\7.png" />
+    <None Remove="Images\Division Icons\8.png" />
+    <None Remove="Images\Division Icons\9.png" />
+    <None Remove="Images\Fieldmarshalls\1.png" />
+    <None Remove="Images\Fieldmarshalls\10.png" />
+    <None Remove="Images\Fieldmarshalls\11.png" />
+    <None Remove="Images\Fieldmarshalls\12.png" />
+    <None Remove="Images\Fieldmarshalls\13.png" />
+    <None Remove="Images\Fieldmarshalls\14.png" />
+    <None Remove="Images\Fieldmarshalls\15.png" />
+    <None Remove="Images\Fieldmarshalls\17.png" />
+    <None Remove="Images\Fieldmarshalls\2.png" />
+    <None Remove="Images\Fieldmarshalls\3.png" />
+    <None Remove="Images\Fieldmarshalls\4.png" />
+    <None Remove="Images\Fieldmarshalls\5.png" />
+    <None Remove="Images\Fieldmarshalls\6.png" />
+    <None Remove="Images\Fieldmarshalls\7.png" />
+    <None Remove="Images\Fieldmarshalls\8.png" />
+    <None Remove="Images\Fieldmarshalls\9.png" />
+    <None Remove="Images\Flags\FRAflag.png" />
+    <None Remove="Images\Flags\GBRflag.png" />
+    <None Remove="Images\Flags\GERflag.png" />
+    <None Remove="Images\Flags\SOVflag.png" />
+    <None Remove="Images\FRAflag.png" />
+    <None Remove="Images\GBRflag.png" />
+    <None Remove="Images\Generals\1.png" />
+    <None Remove="Images\Generals\2.png" />
+    <None Remove="Images\Generals\3.png" />
+    <None Remove="Images\Generals\4.png" />
+    <None Remove="Images\Generals\FRA\1.png" />
+    <None Remove="Images\Generals\FRA\10.png" />
+    <None Remove="Images\Generals\FRA\11.png" />
+    <None Remove="Images\Generals\FRA\12.png" />
+    <None Remove="Images\Generals\FRA\13.png" />
+    <None Remove="Images\Generals\FRA\14.png" />
+    <None Remove="Images\Generals\FRA\15.png" />
+    <None Remove="Images\Generals\FRA\16.png" />
+    <None Remove="Images\Generals\FRA\17.png" />
+    <None Remove="Images\Generals\FRA\18.png" />
+    <None Remove="Images\Generals\FRA\19.png" />
+    <None Remove="Images\Generals\FRA\2.png" />
+    <None Remove="Images\Generals\FRA\20.png" />
+    <None Remove="Images\Generals\FRA\3.png" />
+    <None Remove="Images\Generals\FRA\4.png" />
+    <None Remove="Images\Generals\FRA\5.png" />
+    <None Remove="Images\Generals\FRA\6.png" />
+    <None Remove="Images\Generals\FRA\7.png" />
+    <None Remove="Images\Generals\FRA\8.png" />
+    <None Remove="Images\Generals\FRA\9.png" />
+    <None Remove="Images\Generals\GBR\1.png" />
+    <None Remove="Images\Generals\GBR\10.png" />
+    <None Remove="Images\Generals\GBR\11.png" />
+    <None Remove="Images\Generals\GBR\12.png" />
+    <None Remove="Images\Generals\GBR\13.png" />
+    <None Remove="Images\Generals\GBR\14.png" />
+    <None Remove="Images\Generals\GBR\15.png" />
+    <None Remove="Images\Generals\GBR\16.png" />
+    <None Remove="Images\Generals\GBR\17.png" />
+    <None Remove="Images\Generals\GBR\18.png" />
+    <None Remove="Images\Generals\GBR\19.png" />
+    <None Remove="Images\Generals\GBR\2.png" />
+    <None Remove="Images\Generals\GBR\20.png" />
+    <None Remove="Images\Generals\GBR\21.png" />
+    <None Remove="Images\Generals\GBR\3.png" />
+    <None Remove="Images\Generals\GBR\4.png" />
+    <None Remove="Images\Generals\GBR\5.png" />
+    <None Remove="Images\Generals\GBR\6.png" />
+    <None Remove="Images\Generals\GBR\7.png" />
+    <None Remove="Images\Generals\GBR\8.png" />
+    <None Remove="Images\Generals\GBR\9.png" />
+    <None Remove="Images\Generals\GER\1.png" />
+    <None Remove="Images\Generals\GER\10.png" />
+    <None Remove="Images\Generals\GER\11.png" />
+    <None Remove="Images\Generals\GER\12.png" />
+    <None Remove="Images\Generals\GER\13.png" />
+    <None Remove="Images\Generals\GER\14.png" />
+    <None Remove="Images\Generals\GER\15.png" />
+    <None Remove="Images\Generals\GER\16.png" />
+    <None Remove="Images\Generals\GER\17.png" />
+    <None Remove="Images\Generals\GER\18.png" />
+    <None Remove="Images\Generals\GER\19.png" />
+    <None Remove="Images\Generals\GER\2.png" />
+    <None Remove="Images\Generals\GER\20.png" />
+    <None Remove="Images\Generals\GER\21.png" />
+    <None Remove="Images\Generals\GER\22.png" />
+    <None Remove="Images\Generals\GER\23.png" />
+    <None Remove="Images\Generals\GER\24.png" />
+    <None Remove="Images\Generals\GER\25.png" />
+    <None Remove="Images\Generals\GER\3.png" />
+    <None Remove="Images\Generals\GER\4.png" />
+    <None Remove="Images\Generals\GER\5.png" />
+    <None Remove="Images\Generals\GER\6.png" />
+    <None Remove="Images\Generals\GER\7.png" />
+    <None Remove="Images\Generals\GER\8.png" />
+    <None Remove="Images\Generals\GER\9.png" />
+    <None Remove="Images\Generals\SOV\1.png" />
+    <None Remove="Images\Generals\SOV\10.png" />
+    <None Remove="Images\Generals\SOV\11.png" />
+    <None Remove="Images\Generals\SOV\12.png" />
+    <None Remove="Images\Generals\SOV\13.png" />
+    <None Remove="Images\Generals\SOV\14.png" />
+    <None Remove="Images\Generals\SOV\15.png" />
+    <None Remove="Images\Generals\SOV\16.png" />
+    <None Remove="Images\Generals\SOV\17.png" />
+    <None Remove="Images\Generals\SOV\18.png" />
+    <None Remove="Images\Generals\SOV\19.png" />
+    <None Remove="Images\Generals\SOV\2.png" />
+    <None Remove="Images\Generals\SOV\20.png" />
+    <None Remove="Images\Generals\SOV\21.png" />
+    <None Remove="Images\Generals\SOV\22.png" />
+    <None Remove="Images\Generals\SOV\23.png" />
+    <None Remove="Images\Generals\SOV\24.png" />
+    <None Remove="Images\Generals\SOV\25.png" />
+    <None Remove="Images\Generals\SOV\26.png" />
+    <None Remove="Images\Generals\SOV\27.png" />
+    <None Remove="Images\Generals\SOV\28.png" />
+    <None Remove="Images\Generals\SOV\29.png" />
+    <None Remove="Images\Generals\SOV\3.png" />
+    <None Remove="Images\Generals\SOV\30.png" />
+    <None Remove="Images\Generals\SOV\31.png" />
+    <None Remove="Images\Generals\SOV\4.png" />
+    <None Remove="Images\Generals\SOV\5.png" />
+    <None Remove="Images\Generals\SOV\6.png" />
+    <None Remove="Images\Generals\SOV\7.png" />
+    <None Remove="Images\Generals\SOV\8.png" />
+    <None Remove="Images\Generals\SOV\9.png" />
+    <None Remove="Images\ger main menu.mp4" />
+    <None Remove="Images\GERflag.png" />
+    <None Remove="Images\gigamenu.mp4" />
+    <None Remove="Images\Modifiers\1.png" />
+    <None Remove="Images\Modifiers\10.png" />
+    <None Remove="Images\Modifiers\11.png" />
+    <None Remove="Images\Modifiers\12.png" />
+    <None Remove="Images\Modifiers\13.png" />
+    <None Remove="Images\Modifiers\14.png" />
+    <None Remove="Images\Modifiers\15.png" />
+    <None Remove="Images\Modifiers\16.png" />
+    <None Remove="Images\Modifiers\17.png" />
+    <None Remove="Images\Modifiers\18.png" />
+    <None Remove="Images\Modifiers\19.png" />
+    <None Remove="Images\Modifiers\2.png" />
+    <None Remove="Images\Modifiers\20.png" />
+    <None Remove="Images\Modifiers\21.png" />
+    <None Remove="Images\Modifiers\22.png" />
+    <None Remove="Images\Modifiers\23.png" />
+    <None Remove="Images\Modifiers\24.png" />
+    <None Remove="Images\Modifiers\25.png" />
+    <None Remove="Images\Modifiers\26.png" />
+    <None Remove="Images\Modifiers\27.png" />
+    <None Remove="Images\Modifiers\3.png" />
+    <None Remove="Images\Modifiers\4.png" />
+    <None Remove="Images\Modifiers\5.png" />
+    <None Remove="Images\Modifiers\6.png" />
+    <None Remove="Images\Modifiers\7.png" />
+    <None Remove="Images\Modifiers\8.png" />
+    <None Remove="Images\Modifiers\9.png" />
+    <None Remove="Images\Posters\FRA.png" />
+    <None Remove="Images\Posters\GBR.png" />
+    <None Remove="Images\Posters\GER.png" />
+    <None Remove="Images\Posters\SOV.png" />
+    <None Remove="Images\sov main menu.mp4" />
+    <None Remove="Images\SOVflag.png" />
+    <None Remove="Images\Stat Icons\armor.png" />
+    <None Remove="Images\Stat Icons\breakthrough.png" />
+    <None Remove="Images\Stat Icons\defence.png" />
+    <None Remove="Images\Stat Icons\defense.png" />
+    <None Remove="Images\Stat Icons\front width.png" />
+    <None Remove="Images\Stat Icons\frontWidth.png" />
+    <None Remove="Images\Stat Icons\hard attack.png" />
+    <None Remove="Images\Stat Icons\hardAttack.png" />
+    <None Remove="Images\Stat Icons\health.png" />
+    <None Remove="Images\Stat Icons\organisation.png" />
+    <None Remove="Images\Stat Icons\organization.png" />
+    <None Remove="Images\Stat Icons\piercing.png" />
+    <None Remove="Images\Stat Icons\soft attack.png" />
+    <None Remove="Images\Stat Icons\softAttack.png" />
+    <None Remove="Images\Stat Icons\trash bucket.png" />
+    <None Remove="Images\Stat Icons\vehicle ratio.png" />
+    <None Remove="Images\Stat Icons\vehicleRatio.png" />
+    <None Remove="Images\Terrain\desert.png" />
+    <None Remove="Images\Terrain\forest.png" />
+    <None Remove="Images\Terrain\hills.png" />
+    <None Remove="Images\Terrain\jungles.png" />
+    <None Remove="Images\Terrain\marsh.png" />
+    <None Remove="Images\Terrain\mountains.png" />
+    <None Remove="Images\Terrain\plains.png" />
+    <None Remove="Images\Terrain\urban.png" />
+    <None Remove="Music\cursed red sun.mp3" />
+    <None Remove="Music\cursed red sun.wav" />
+    <None Remove="Music\DACHNIE PEREKRITIYA !.mp3" />
+    <None Remove="Music\DACHNIE PEREKRITIYA !.wav" />
+    <None Remove="Music\Explosive six.mp3" />
+    <None Remove="Music\Explosive six.wav" />
+    <None Remove="Music\ghostmane - смешарики.mp3" />
+    <None Remove="Music\ghostmane - смешарики.wav" />
+    <None Remove="Music\Good J_ICY Celldweller x Instasamka.wav" />
+    <None Remove="Music\levan dom dom.mp3" />
+    <None Remove="Music\levan dom dom.wav" />
+    <None Remove="Music\Omsk Sun.mp3" />
+    <None Remove="Music\Omsk Sun.wav" />
+    <None Remove="Music\pop u like a 1.Kla%24.mp3" />
+    <None Remove="Music\pop u like a 1.Kla%24.wav" />
+    <None Remove="Music\ROLLIN BALLIN.mp3" />
+    <None Remove="Music\ROLLIN BALLIN.wav" />
+    <None Remove="Music\slimushkin - ратата%29.mp3" />
+    <None Remove="Music\slimushkin - ратата%29.wav" />
+    <None Remove="Music\Treat Me Like за деньги.mp3" />
+    <None Remove="Music\Treat Me Like за деньги.wav" />
+    <None Remove="Music\Zero Fire - DoraDuraCORN.mp3" />
+    <None Remove="Music\Zero Fire - DoraDuraCORN.wav" />
+    <None Remove="Music\Втюрилась Inc.wav" />
+    <None Remove="Music\Дабуру-скибиди.mp3" />
+    <None Remove="Music\Дабуру-скибиди.wav" />
+    <None Remove="Music\Доктор Ливси идет в Омск.mp3" />
+    <None Remove="Music\Доктор Ливси идет в Омск.wav" />
+    <None Remove="Music\Дору уронили на пол.mp3" />
+    <None Remove="Music\Дору уронили на пол.wav" />
+    <None Remove="Music\КАДИЛЛАК ПЕРЕМЕН.wav" />
+    <None Remove="Music\мистраль хочет быть невестой райдена.mp3" />
+    <None Remove="Music\мистраль хочет быть невестой райдена.wav" />
+    <None Remove="Music\молдавская заводная.mp3" />
+    <None Remove="Music\молдавская заводная.wav" />
+    <None Remove="Music\Почему Caramelldansen.mp3" />
+    <None Remove="Music\Почему Caramelldansen.wav" />
+    <None Remove="Music\Ребята, прикиньте, тут есть МОХ.wav" />
+    <None Remove="Music\РЕБЯТКИ, СМОТРИТЕ ТУТ ЕСТЬ ДЖКБ.mp3" />
+    <None Remove="Music\РЕБЯТКИ, СМОТРИТЕ ТУТ ЕСТЬ ДЖКБ.wav" />
+    <None Remove="Music\ФИТ ГОДА! ТУРОК И ЦЫГАН.mp3" />
+    <None Remove="Music\ФИТ ГОДА! ТУРОК И ЦЫГАН.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Army Groups Icons\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Groups Icons\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Army Icons\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\A.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\AA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\AAC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\AC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\Am.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\AmTank.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\ArmCar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\ArmCarRC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\AT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\ATC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\BicB.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\Cam.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\Cav.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\CR.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\E.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\FH.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\HAA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\HAmT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\HAT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\HFT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\HSPG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\HT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\Inf.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LAA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LAmT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LAT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LFT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LRC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LSPG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\LT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\M.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MAA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MAmT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MAT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\Mech.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MFT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MoAA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MoAT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MoSPG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MoT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\Motor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MotorA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MotorAA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MotorAT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MotorRA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MotorRC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\Mountaineers.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MP.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MSPG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\MT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\P.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\PB.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\RA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\RCC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\SC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\SHAA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\SHAT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\SHSPG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\SHT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Battalion Icons\TDRA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\add army group.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\add army.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\add division.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\add track.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\AppIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\AppIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\checkmark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\edit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\error.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\loupe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\muted.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\no-repeat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\nullGeneral.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\add empty army group.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\arrow back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\firstCountry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\floppy disc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\pause.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\play.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\repeat-all.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\repeat-one.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\secondCountry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\shuffle off.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\shuffle on.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\spinning-circles.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\success.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\switch track left.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\switch track right.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\trash bucket.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\triangle to left.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\triangle to right.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Button Icons\unmuted.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\25.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Division Icons\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fieldmarshalls\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flags\FRAflag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flags\GBRflag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flags\GERflag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flags\SOVflag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\FRA\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GBR\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\25.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\GER\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\25.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\26.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\27.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\28.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\30.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\31.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Generals\SOV\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ger main menu.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\gigamenu.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\25.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\26.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\27.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modifiers\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Posters\FRA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Posters\GBR.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Posters\GER.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Posters\SOV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\sov main menu.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\armor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\breakthrough.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\defense.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\front width.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\hard attack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\health.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\organization.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\piercing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\soft attack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Stat Icons\vehicle ratio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\desert.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\forest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\hills.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\jungles.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\marsh.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\mountains.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\plains.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Terrain\urban.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\cursed red sun.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\DACHNIE PEREKRITIYA !.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Explosive six.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\ghostmane - смешарики.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Good J_ICY Celldweller x Instasamka.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\levan dom dom.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Omsk Sun.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\pop u like a 1.Kla$.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\ROLLIN BALLIN.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\slimushkin - ратата).wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Treat Me Like за деньги.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Zero Fire - DoraDuraCORN.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Втюрилась Inc.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Дабуру-скибиди.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Доктор Ливси идет в Омск.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Дору уронили на пол.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\КАДИЛЛАК ПЕРЕМЕН.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\мистраль хочет быть невестой райдена.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\молдавская заводная.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Почему Caramelldansen.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\Ребята, прикиньте, тут есть МОХ.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\РЕБЯТКИ, СМОТРИТЕ ТУТ ЕСТЬ ДЖКБ.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Music\ФИТ ГОДА! ТУРОК И ЦЫГАН.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Svg" Version="3.4.4" />
+    <PackageReference Include="Svg.Skia" Version="0.5.18" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>

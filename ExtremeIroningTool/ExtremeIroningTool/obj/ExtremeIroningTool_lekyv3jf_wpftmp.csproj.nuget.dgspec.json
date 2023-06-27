@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\_УЧЁБА_\\EIT\\ExtremeIroningTool\\ExtremeIroningTool\\ExtremeIroningTool.csproj": {}
+  },
+  "projects": {
+    "D:\\_УЧЁБА_\\EIT\\ExtremeIroningTool\\ExtremeIroningTool\\ExtremeIroningTool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_УЧЁБА_\\EIT\\ExtremeIroningTool\\ExtremeIroningTool\\ExtremeIroningTool.csproj",
+        "projectName": "ExtremeIroningTool",
+        "projectPath": "D:\\_УЧЁБА_\\EIT\\ExtremeIroningTool\\ExtremeIroningTool\\ExtremeIroningTool.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\_УЧЁБА_\\EIT\\ExtremeIroningTool\\ExtremeIroningTool\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\_УЧЁБА_\\EIT\\ExtremeIroningTool\\ExtremeIroningTool\\Resources": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "WpfAnimatedGif": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

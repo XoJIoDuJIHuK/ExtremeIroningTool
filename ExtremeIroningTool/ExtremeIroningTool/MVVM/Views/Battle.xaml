@@ -1,0 +1,356 @@
+﻿<UserControl x:Class="ExtremeIroningTool.MVVM.Views.Battle"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExtremeIroningTool.MVVM.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="864"
+      d:DesignWidth="1536"
+      Background="{StaticResource LightGreen}">
+
+    <UserControl.Resources>
+
+        <Style x:Key="Title" TargetType="TextBlock">
+
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="20 0 0 0"/>
+            <Setter Property="FontSize" Value="20"/>
+
+        </Style>
+
+        <ControlTemplate x:Key="DivisionControlTemplate" TargetType="Button">
+
+            <Grid Height="60"
+                  x:Name="Header"
+                  Background="{StaticResource LightGreen}"
+                  Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}, 
+                      Converter={StaticResource SummatorConverter}, ConverterParameter=60}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.16*"/>
+                    <ColumnDefinition Width="0.78666666666666666666666666666667*"/>
+                    <ColumnDefinition Width="0.02666666666666666666666666666667*"/>
+                    <ColumnDefinition Width="0.02666666666666666666666666666667*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="{Binding PathToIcon, Converter={StaticResource StringToImageConverter}}"
+                       Grid.Column="0"/>
+
+                <TextBlock Text="{Binding Name}"
+                           Grid.Column="1"
+                           Style="{StaticResource Title}"/>
+                <Grid Grid.Column="2"
+                      Background="Black">
+                    <Rectangle x:Name="Health"
+                               VerticalAlignment="Bottom"
+                               Fill="#FFA556">
+                        <Rectangle.Height>
+                            <MultiBinding Converter="{StaticResource ProgressConverter}">
+                                <Binding Path="ActualHeight" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType={x:Type Grid}}"/>
+                                <Binding Path="HealthPart"/>
+                            </MultiBinding>
+                        </Rectangle.Height>
+                    </Rectangle>
+                </Grid>
+                <Grid Grid.Column="3"
+                      Background="Black">
+                    <Rectangle x:Name="Organization"
+                               VerticalAlignment="Bottom"
+                               Fill="#00FF50">
+                        <Rectangle.Height>
+                            <MultiBinding Converter="{StaticResource ProgressConverter}">
+                                <Binding Path="ActualHeight" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType={x:Type Grid}}"/>
+                                <Binding Path="OrganizationPart"/>
+                            </MultiBinding>
+                        </Rectangle.Height>
+                    </Rectangle>
+                </Grid>
+
+            </Grid>
+
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="ArmyControlTemplate" TargetType="Button">
+
+            <StackPanel Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}, Converter={StaticResource SummatorConverter}, ConverterParameter=30}"
+                        HorizontalAlignment="Right">
+
+                <Grid Height="60" x:Name="Header">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.14814814814814814814814814814815*"/>
+                        <ColumnDefinition Width="0.85185185185185185185185185185185*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="{Binding PathToIcon, Converter={StaticResource StringToImageConverter}}"
+                       Grid.Column="0"/>
+
+                    <TextBlock Text="{Binding Name}"
+                           Grid.Column="1"
+                               Style="{StaticResource Title}"/>
+
+                </Grid>
+
+                <ListBox ItemsSource="{Binding BattleDivisions}"
+                         BorderThickness="0"
+                         HorizontalContentAlignment="Right"
+                         Background="{StaticResource DarkGreen}">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Button Template="{StaticResource DivisionControlTemplate}"
+                                    Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type StackPanel}}, Converter={StaticResource SummatorConverter}, ConverterParameter=30}"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </StackPanel>
+
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="ArmyGroupControlTemplate" TargetType="Button">
+
+            <StackPanel Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}, Converter={StaticResource SummatorConverter}}">
+
+                <Grid Height="60" x:Name="Header">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.13793103448275862068965517241379*"/>
+                        <ColumnDefinition Width="0.86206896551724137931034482758621*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="{Binding PathToIcon, Converter={StaticResource StringToImageConverter}}"
+                       Grid.Column="0"/>
+
+                    <TextBlock Text="{Binding Name}"
+                           Grid.Column="1"
+                               Style="{StaticResource Title}"/>
+
+                </Grid>
+
+                <ListBox ItemsSource="{Binding Armies}"
+                         HorizontalAlignment="Right"
+                         Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type StackPanel}}, Converter={StaticResource SummatorConverter}, ConverterParameter=20}"
+                         BorderThickness="0"
+                         Background="{StaticResource LightGreen}">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Button Template="{StaticResource ArmyControlTemplate}"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </StackPanel>
+
+        </ControlTemplate>
+
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.01041666666666666666666666666667*"/>
+            <ColumnDefinition Width="0.97916666666666666666666666666666*"/>
+            <ColumnDefinition Width="0.01041666666666666666666666666667*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.01851851851851851851851851851852*"/>
+            <RowDefinition Height="0.05555555555555555555555555555556*"/>
+            <RowDefinition Height="0.01851851851851851851851851851852*"/>
+            <RowDefinition Height="0.88888888888888888888888888888889*"/>
+            <RowDefinition Height="0.01851851851851851851851851851851*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="NavigationButtons"
+              Grid.Row="1"
+              Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.24202127659574468085106382978724*"/>
+                <ColumnDefinition Width="0.51595744680851063829787234042553*"/>
+                <ColumnDefinition Width="0.24202127659574468085106382978724*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Command="{Binding BackBattleClickCommand}"
+                    Content="Back"
+                    Style="{StaticResource DefaultButton}"
+                    FontSize="30"/>
+
+            <Button Command="{Binding StartBattleCommand}"
+                    Visibility="{Binding StartBattleButtonVisibility}"
+                    Content="Battle"
+                    Style="{StaticResource DefaultButton}"
+                    Background="{StaticResource PaleYellow}"
+                    Foreground="Black"
+                    FontSize="30"
+                    Grid.Column="2"/>
+            <Button Command="{Binding ResetBattleCommand}"
+                    Visibility="{Binding ResetBattleButtonVisibility}"
+                    Content="Reset"
+                    Style="{StaticResource DefaultButton}"
+                    Background="{StaticResource PaleYellow}"
+                    Foreground="Black"
+                    FontSize="30"
+                    Grid.Column="2"/>
+
+            <TextBlock Text="Battle"
+                       Style="{StaticResource Header}"
+                       Grid.Column="1"
+                       FontSize="30"
+                       HorizontalAlignment="Center"/>
+
+        </Grid>
+
+        <Grid Grid.Row="3"
+              Grid.Column="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.24202127659574468085106382978724*"/>
+                <ColumnDefinition Width="0.51595744680851063829787234042553*"/>
+                <ColumnDefinition Width="0.24202127659574468085106382978724*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.82291666666666666666666666666667*"/>
+                <RowDefinition Height="0.02083333333333333333333333333333*"/>
+                <RowDefinition Height="0.15625*"/>
+            </Grid.RowDefinitions>
+
+            <ScrollViewer x:Name="Attackers"
+                          Grid.RowSpan="3">
+                <ListBox ItemsSource="{Binding AttackerArmy}"
+                         Background="{StaticResource DarkGreen}"
+                         BorderThickness="0">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Button Template="{StaticResource ArmyGroupControlTemplate}"
+                                    Width="{Binding ActualWidth, ElementName=Attackers, Converter={StaticResource SummatorConverter}, ConverterParameter=30}"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+
+            <Grid Grid.Column="1"
+                  Grid.RowSpan="3"
+                  Margin="16 0 16 0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.82291666666666666666666666666667*"/>
+                    <RowDefinition Height="0.02083333333333333333333333333333*"/>
+                    <RowDefinition Height="0.15625*"/>
+                </Grid.RowDefinitions>
+
+                <ScrollViewer Grid.Row="0"
+                              Background="{StaticResource DarkGreen}">
+                    <TextBlock HorizontalAlignment="Left"
+                               Name="Log"
+                               Foreground="White"
+                               TextWrapping="Wrap"
+                               Padding="10"
+                               Text="{Binding LogText}"
+                               Background="Transparent"/>
+                </ScrollViewer>
+
+            </Grid>
+            
+            <ScrollViewer x:Name="Defenders"
+                          Grid.Column="2"
+                          Grid.RowSpan="3">
+                <ListBox ItemsSource="{Binding DefenderArmy}"
+                         Background="{StaticResource DarkGreen}"
+                         BorderThickness="0">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Button Template="{StaticResource ArmyGroupControlTemplate}"
+                                    Width="{Binding ActualWidth, ElementName=Attackers, Converter={StaticResource SummatorConverter}, ConverterParameter=30}"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+
+            <Grid Grid.Row="2"
+                  Grid.Column="1"
+                  Margin="20 0 20 0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.1*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.Resources>
+
+                        <Style TargetType="TextBlock">
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="FontSize" Value="30"/>
+                        </Style>
+
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="{StaticResource PaleYellow}"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </Grid.Resources>
+
+                    <Button Command="{Binding SpeedUp}"
+                            Grid.Row="0">
+                        <TextBlock Text="+"/>
+                    </Button>
+
+                    <TextBlock Text="{Binding Speed}"
+                               Grid.Row="1"
+                               HorizontalAlignment="Stretch"
+                               Foreground="White"
+                               Background="{StaticResource DarkGreen}"
+                               FontSize="30"/>
+
+                    <Button Command="{Binding SlowDown}"
+                            Grid.Row="2">
+                        <TextBlock Text="-"/>
+                    </Button>
+
+                </Grid>
+                
+                <ComboBox x:Name="TerrainTypesComboBox"
+                          Grid.Column="1"
+                          ItemsSource="{Binding TerrainTypes}"
+                          SelectionChanged="ComboBox_SelectionChanged"
+                          Background="{StaticResource DarkGreen}"
+                          Foreground="{StaticResource DarkGreen}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding PathToIcon, Converter={StaticResource StringToImageConverter}}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+
+            </Grid>
+            
+        </Grid>
+
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,299 @@
+﻿<UserControl x:Class="ExtremeIroningTool.MVVM.Views.BottomPartArmyConfigurator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExtremeIroningTool.MVVM.Views"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com" xmlns:viewmodels="clr-namespace:ExtremeIroningTool.MVVM.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:ViewModelBottomPartArmyConfigurator}"
+             mc:Ignorable="d" 
+             d:DesignHeight="960" d:DesignWidth="1880">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.242*"/>
+            <ColumnDefinition Width="0.010638*"/>
+            <ColumnDefinition Width="0.6117*"/>
+            <ColumnDefinition Width="0.010638*"/>
+            <ColumnDefinition Width="0.12765957*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.083333*"/>
+            <RowDefinition Height="0.916667*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0"
+              Background="{StaticResource DarkGreen}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.0625*"/>
+                <RowDefinition Height="0.875*"/>
+                <RowDefinition Height="0.0625*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.01098901098901098901098901098901*"/>
+                <ColumnDefinition Width="0.23516483516483516483516483516484*"/>
+                <ColumnDefinition Width="0.01098901098901098901098901098901*"/>
+                <ColumnDefinition Width="0.23516483516483516483516483516484*"/>
+                <ColumnDefinition Width="0.01098901098901098901098901098901*"/>
+                <ColumnDefinition Width="0.23516483516483516483516483516484*"/>
+                <ColumnDefinition Width="0.01098901098901098901098901098901*"/>
+                <ColumnDefinition Width="0.23516483516483516483516483516484*"/>
+                <ColumnDefinition Width="0.01098901098901098901098901098901*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="BackButton"
+                    Padding="0"
+                    Margin="0"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Command="{Binding showFieldmarshals}"
+                    Background="{StaticResource PaleYellow}">
+                <Image Source="{Binding Source={StaticResource ArrowBack}, Converter={StaticResource StringToImageConverter}}"/>
+            </Button>
+            <Button x:Name="AddButton"
+                    Padding="0"
+                    Margin="0"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Command="{Binding addClick}"
+                    Background="{StaticResource PaleYellow}">
+                <Image Source="{Binding AddIcon}"/>
+            </Button>
+            <Button x:Name="SaveButton"
+                    Padding="0"
+                    Margin="0"
+                    Grid.Row="1"
+                    Grid.Column="5"
+                    Background="{StaticResource PaleYellow}"
+                    Command="{Binding SaveCommand}">
+                <Image Source="{Binding Source={StaticResource SaveIcon}, Converter={StaticResource StringToImageConverter}}"/>
+            </Button>
+            <Button x:Name="DeleteButton"
+                    Padding="0"
+                    Margin="0"
+                    Grid.Row="1"
+                    Grid.Column="7"
+                    Background="{StaticResource PaleYellow}"
+                    Command="{Binding DeleteCommand}">
+                <Image Source="{Binding Source={StaticResource DeleteIcon}, Converter={StaticResource StringToImageConverter}}"/>
+            </Button>
+
+        </Grid>
+        <!--Interaction buttons-->
+
+        <Grid x:Name="Fieldmarshals"
+              Grid.Column="0"
+              Grid.Row="1"
+              Visibility="Visible"
+              Background="{StaticResource DarkGreen}">
+            <ScrollViewer>
+                <ListBox ItemsSource="{Binding ArmyGroups}"
+                         Background="{StaticResource DarkGreen}">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="MaxWidth" Value="415" />
+                            <Setter Property="MaxHeight" Value="150" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="VerticalContentAlignment" Value="Stretch" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="ListBoxItem">
+                                        <ContentPresenter />
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <local:GeneralSelectionCard/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+            <!--<Button Width="100" Height="100"/>-->
+        </Grid>
+        <Grid x:Name="Generals"
+              Grid.Column="0"
+              Grid.Row="1"
+              Visibility="Collapsed">
+            <ScrollViewer>
+                <ListBox ItemsSource="{Binding CurrentArmyGroup}"
+                         Background="{StaticResource DarkGreen}">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="MaxWidth" Value="415" />
+                            <Setter Property="MaxHeight" Value="150" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="VerticalContentAlignment" Value="Stretch" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="ListBoxItem">
+                                        <ContentPresenter />
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <local:GeneralSelectionCard/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid Grid.Column="2" Grid.Row="0" Grid.RowSpan="2"
+              Background="{StaticResource DarkGreen}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.00520833333333*"/>
+                <RowDefinition Height="0.07291666666666*"/>
+                <RowDefinition Height="0.00520833333333*"/>
+                <RowDefinition Height="0.86458333333333*"/>
+                <RowDefinition Height="0.05208333333334*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.0043478260869565*"/>
+                <ColumnDefinition Width="0.9913043478260869*"/>
+                <ColumnDefinition Width="0.0043478260869565*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid x:Name="Headers"
+                  Grid.Row="1"
+                  Grid.Column="1"
+                  Background="{StaticResource LightGreen}">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.4649*"/>
+                    <ColumnDefinition Width="0.00438596*"/>
+                    <ColumnDefinition Width="0.4649*"/>
+                    <ColumnDefinition Width="0.00438596*"/>
+                    <ColumnDefinition Width="0.0614035*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Army group header-->
+                <Grid Grid.Column="0"
+                      Visibility="{Binding ArmyGroupHeaderVisibility}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.13207547*"/>
+                        <ColumnDefinition Width="0.73584906*"/>
+                        <ColumnDefinition Width="0.13207547*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Command="{Binding editArmyGroupIcon}"
+                            Grid.Column="0">
+                        <Image Source="{Binding ArmyGroupIcon, Converter={StaticResource StringToImageConverter}}"/>
+                    </Button>
+                    <TextBox Text="{Binding ProxyArmyGroupName}"
+                             Grid.Column="1"
+                             IsReadOnly="{Binding ForbidEditArmyGroupName}"
+                             Style="{StaticResource HeaderTextBox}"/>
+                    <Button Command="{Binding EditArmyGroupCommand}"
+                            Grid.Column="2">
+                        <Image Source="{Binding ArmyGroupButtonImageSource, Converter={StaticResource StringToImageConverter}}"/>
+                    </Button>
+                </Grid>
+                
+                <!--Army header-->
+                <Grid Grid.Column="2"
+                      Visibility="{Binding ArmyHeaderVisibility}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.13207547*"/>
+                        <ColumnDefinition Width="0.73584906*"/>
+                        <ColumnDefinition Width="0.13207547*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Command="{Binding editArmyIcon}"
+                            Grid.Column="0">
+                        <Image Source="{Binding ArmyIcon, Converter={StaticResource StringToImageConverter}}"/>
+                    </Button>
+                    <TextBox Text="{Binding ProxyArmyName}"
+                             x:Name="ArmyName"
+                             Grid.Column="1"
+                             IsReadOnly="{Binding ForbidEditArmyName}"
+                             Style="{StaticResource HeaderTextBox}"/>
+                    <Button Command="{Binding EditArmyCommand}"
+                            Grid.Column="2">
+                        <Image Source="{Binding ArmyButtonImageSource, Converter={StaticResource StringToImageConverter}}"/>
+                    </Button>
+                </Grid>
+
+                <Button Command="{Binding AddDivisionCommand}"
+                        Visibility="{Binding ArmyHeaderVisibility}"
+                        Background="{StaticResource PaleYellow}"
+                        Grid.Column="4">
+                    <Image Source="{Binding Source={StaticResource AddDivisionIcon}, Converter={StaticResource StringToImageConverter}}"/>
+                </Button>
+
+            </Grid>
+            
+            <ScrollViewer Grid.Row="3"
+                          Grid.Column="1"
+                          x:Name="CurrentArmyDivisions">
+                <ListBox ItemsSource="{Binding CurrentArmyDivisions}"
+                         Background="{StaticResource DarkGreen}"
+                         BorderThickness="0">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel x:Name="Divisions"
+                                        Orientation="Vertical">
+                            </StackPanel>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="MaxWidth" Value="1065" />
+                            <Setter Property="MaxHeight" Value="70" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="ListBoxItem">
+                                        <ContentPresenter />
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <local:DivisionForConstructor Tag="{Binding DataContext, RelativeSource={RelativeSource AncestorType={x:Type local:BottomPartArmyConfigurator}}}"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                
+            </ScrollViewer>
+
+            <Grid Grid.Row="4"
+                  Grid.Column="1"
+                  Background="{Binding StatusBarBackground}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.043859649122807*"/>
+                    <ColumnDefinition Width="0.956140350877193*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="{Binding StatusBarImageSource, Converter={StaticResource StringToImageConverter}}"
+                       Grid.Column="0"/>
+                <TextBlock Text="{Binding StatusBarText}"
+                           HorizontalAlignment="Left"
+                           Margin="20 0 0 0"
+                           VerticalAlignment="Center"
+                           Foreground="White"
+                           FontWeight="Bold"
+                           FontSize="16"
+                           Grid.Column="1"/>
+
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

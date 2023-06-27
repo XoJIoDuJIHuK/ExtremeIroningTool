@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="ExtremeIroningTool.MVVM.Views.ViewCountrySelectionCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExtremeIroningTool.MVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="390" d:DesignWidth="418">
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter><!--Не знаю, как, но оно работает-->
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="{StaticResource DarkGreen}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.0564*"/>
+            <RowDefinition Height="0.56923*"/>
+            <RowDefinition Height="0.36923*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.0574*"/>
+            <ColumnDefinition Width="0.885*"/>
+            <ColumnDefinition Width="0.0574*"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="1"
+               x:Name="Image"
+               Grid.Row="1"
+               Source="{Binding PathToIcon}"/>
+        <TextBlock Grid.Row="2"
+                   x:Name="countryName"
+                   Grid.Column="1"
+                   Text="{Binding CountryName}"
+                   FontSize="30"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Background="Transparent"
+                   Foreground="White"/>
+        <Button x:Name="AllCoveringButton"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Grid.Row="0"
+                Grid.RowSpan="3"
+                Background="Transparent"
+                Command="{Binding countryClick}"/>
+    </Grid>
+</UserControl>

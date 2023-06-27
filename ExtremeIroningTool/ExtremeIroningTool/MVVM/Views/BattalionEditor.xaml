@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="ExtremeIroningTool.MVVM.Views.BattalionEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExtremeIroningTool.MVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="864" d:DesignWidth="1536">
+    <Grid Background="{StaticResource LightGreen}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.01041666666666666666666666666667*"/>
+            <ColumnDefinition Width="0.97916666666666666666666666666667*"/>
+            <ColumnDefinition Width="0.01041666666666666666666666666667*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.01851851851851851851851851851852*"/>
+            <RowDefinition Height="0.05555555555555555555555555555556*"/>
+            <RowDefinition Height="0.01851851851851851851851851851852*"/>
+            <RowDefinition Height="0.88888888888888888888888888888889*"/>
+            <RowDefinition Height="0.01851851851851851851851851851852*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="NavigationButtons"
+              Grid.Row="1"
+              Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.24202127659574468085106382978723*"/>
+                <ColumnDefinition Width="0.51595744680851063829787234042553*"/>
+                <ColumnDefinition Width="0.24202127659574468085106382978723*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Command="{Binding BackCommand}"
+                    Grid.Column="0"
+                    Style="{StaticResource DefaultButton}"
+                    Content="Back"/>
+
+            <TextBlock Text="Battalion Editor"
+                       Style="{StaticResource Header}"
+                       Grid.Column="1"/>
+
+        </Grid>
+
+        <Grid Grid.Row="3"
+              Grid.Column="1">
+
+            <DataGrid ItemsSource="{Binding AllBattalions}"
+                      AutoGenerateColumns="False"
+                      CellEditEnding="DataGrid_CellEditEnding">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding name}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Health" Binding="{Binding health}"/>
+                    <DataGridTextColumn Header="Organization" Binding="{Binding organization}"/>
+                    <DataGridTextColumn Header="SoftAttack" Binding="{Binding softAttack}"/>
+                    <DataGridTextColumn Header="HardAttack" Binding="{Binding hardAttack}"/>
+                    <DataGridTextColumn Header="Defense" Binding="{Binding defence}"/>
+                    <DataGridTextColumn Header="Breakthrough" Binding="{Binding breakthrough}"/>
+                    <DataGridTextColumn Header="Armor" Binding="{Binding armor}"/>
+                    <DataGridTextColumn Header="Piercing" Binding="{Binding piercing}"/>
+                    <DataGridTextColumn Header="FrontWidth" Binding="{Binding frontWidth}"/>
+                    <DataGridTextColumn Header="PathToIcon" Binding="{Binding pathToIcon}"/>
+                    <DataGridTextColumn Header="VehicleRatio" Binding="{Binding vehicleRatio}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            
+        </Grid>
+
+    </Grid>
+</UserControl>

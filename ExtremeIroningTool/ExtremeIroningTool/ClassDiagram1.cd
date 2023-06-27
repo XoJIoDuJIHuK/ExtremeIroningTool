@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExtremeIroningTool.MVVM.Models.ModelArmyConfigurator">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAEAAAAAgwAAAAAAAAAAAAAAAAACAIAAA=</HashCode>
+      <FileName>MVVM\Models\ModelArmyConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.Models.ModelBottomPartArmyConfigurator">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Models\ModelBottomPartArmyConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.Models.ModelMainWindow">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Models\ModelMainWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelAddArmyGroup" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelAddArmyGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelArmyConfigurator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgEwABIBJgggEDgBMAgABQAAgBEEyBQQUQAGAhAIGgA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelArmyConfigurator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelArmyGroupAddCard" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelArmyGroupAddCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelAudioPlayer" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelAudioPlayer.RepeatMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MVVM\ViewModels\ViewModelAudioPlayer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gwAgAAAAAkAgAAEDIAAAYgAAhAQBAAIgIQFSAADGAGI=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelAudioPlayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelBattalionEditor" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEEBAAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelBattalionEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelBattle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQUACIAEABAAMAAYGECgyIAEgAAACQQAEAoAEBA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelBattle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelBottomPartArmyConfigurator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>loEKY0xDBgE4CxmAIIZoCCBFhEJhKYEHhQnAAoAMBDI=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelBottomPartArmyConstructor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelCountrySelect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAoBAAAAAAAAIAIMUAAAABAgAAkABAAATAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelCountrySelect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelCountrySelectionCard" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAgEAAAABAAAAAAAACAQAAAAABAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelCountrySelectionCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelDivisionConstructorWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GIAACCwAcggQnEiEtAUAwADKhRQgAEMJGTEoE0CIDCE=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelDivisionConstructorWindow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelGeneralSelectionCard" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAIAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelArmySelectionCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelMainMenu" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAQAAEEAFAgAEAEAAEABAAIQAAAAABAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelMainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACUCAAAJUUAgAJAAAAAAAyAAAABAAAwAAEBBICAI=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelMainWindow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.MVVM.ViewModels.ViewModelModifiers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>UQAACECAIAQAGEQCMCAgACUCxAEEAAACAQAAAAAFCAE=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelModifiers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.Army" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABAEoAAAEIQAghAEAAAACAAAAAgAIBA=</HashCode>
+      <FileName>Utilitary classes\Army.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.142" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.ArmyGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEoAAAAIQAiAAEAAAAAAAAAAAAIBI=</HashCode>
+      <FileName>Utilitary classes\ArmyGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.Battalion">
+    <Position X="4.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\Battalion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.Country" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEIAAAAIAAAAAEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Utilitary classes\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.DataBaseInteraction">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgwGQIAQAAAASQEBDDAAAAABGAEcEEAAAAC6ANACABA=</HashCode>
+      <FileName>Utilitary classes\DataBaseInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.Division">
+    <Position X="2.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IICAACAAAAAACECE4ABEAAUAggAAAAAIAAAAAAAAABA=</HashCode>
+      <FileName>Utilitary classes\Division.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.DoubleRoundConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\DoubleRoundConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.General" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABAQAQAAAEoAAQQIQAkAIEgAACAAEAAAAAAEA=</HashCode>
+      <FileName>Utilitary classes\General.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.GetCenterOfCircleConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\GetCenterOfCircleConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.LandForces" Collapsed="true">
+    <Position X="12.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEgAAAAQAAAAIgAAAAAAgAAAAAAQAAAAgAAAAAA=</HashCode>
+      <FileName>Utilitary classes\LandForces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.MultiplierConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\MultiplierConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.PathsToImages" Collapsed="true">
+    <Position X="16" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAoIAAMAAAACQZwgAEAAIFsiAAAAAAAoQEAIAAAEQA=</HashCode>
+      <FileName>Utilitary classes\PathsToImages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.ProgressConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\ProgressConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.StatNameToImageConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\StatNameToImageConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.StatsDictionaryElement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAAoAAAAIAAgAAAACAAAAAhAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\StatsDictionaryElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.StatWidthConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\StatWidthConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.StringToImageConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\StringToImageConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.SummatorConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\SummatorConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.SupportCompany">
+    <Position X="2.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\SupportCompany.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.Terrain" Collapsed="true">
+    <Position X="10.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAgAAAAAAAAACBgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\Terrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.TerrainModifier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAgAAEIAAAAAAAgAABgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\TerrainModifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.TerrainTypeToImageConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\TerrainTypeToImageConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.Unit">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAAAAAAAAEIAAAAIAAggAEABAAAAAgIBABAA4=</HashCode>
+      <FileName>Utilitary classes\Unit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.UnitDictionaryElement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAQAoAAEAAQAgAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\UnitDictionaryElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExtremeIroningTool.Utilitary_classes.UtilitaryFunctions" Collapsed="true">
+    <Position X="9" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAEAgEAAAAIAAAEAEAAAAAAAAAAEAAABAQABE=</HashCode>
+      <FileName>Utilitary classes\UtilitaryFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ExtremeIroningTool.Interfaces.ILandForce" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Interfaces\ILandForce.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.ComponentModel.INotifyPropertyChanged" Collapsed="true">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="ExtremeIroningTool.MVVM.ViewModels.BattalionType" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAACAAMAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelDivisionConstructorWindow.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExtremeIroningTool.MVVM.ViewModels.StatusBarMessageType" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ViewModelArmyConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExtremeIroningTool.Utilitary_classes.CommanderRank" Collapsed="true">
+    <Position X="9" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitary classes\General.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExtremeIroningTool.Utilitary_classes.TerrainType" Collapsed="true">
+    <Position X="10.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQQQAAAgAAIAAAAAACAABAAAAAAAACECA=</HashCode>
+      <FileName>Utilitary classes\TerrainModifier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExtremeIroningTool.Utilitary_classes.UnitType" Collapsed="true">
+    <Position X="12.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAQA=</HashCode>
+      <FileName>Utilitary classes\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

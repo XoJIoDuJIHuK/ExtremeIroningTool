@@ -1,0 +1,248 @@
+{
+name:'Amphibious Tank Battalion',
+icon:AmphibiousTankBattalionIcon
+},
+{
+name:'Amtrac Batallion',
+icon:AmtracBatallionIcon
+},
+{
+name:'Anti-Air',
+icon:AntiAirIcon
+},
+{
+name:'Anti-Tank',
+icon:AntiTankIcon
+},
+{
+name:'Armored Car',
+icon:ArmoredCarIcon
+},
+{
+name:'Armored Car Recon Company',
+icon:ArmoredCarReconCompanyIcon
+},
+{
+name:'Artillery',
+icon:ArtilleryIcon
+},
+{
+name:'Bicycle',
+icon:BicycleIcon
+},
+{
+name:'Camelry',
+icon:CamelryIcon
+},
+{
+name:'Cavalry',
+icon:CavalryIcon
+},
+{
+name:'Cavalry Recon Company',
+icon:CavalryReconCompanyIcon
+},
+{
+name:'Engineer Company',
+icon:EngineerCompanyIcon
+},
+{
+name:'Field Hospital',
+icon:FieldHospitalIcon
+},
+{
+name:'Heavy Amphibious Tank Battalion',
+icon:HeavyAmphibiousTankBattalionIcon
+},
+{
+name:'Heavy Flame Tank Company',
+icon:HeavyFlameTankCompanyIcon
+},
+{
+name:'Heavy SP Anti-Air',
+icon:HeavySPAntiAirIcon
+},
+{
+name:'Heavy SP Artillery',
+icon:HeavySPArtilleryIcon
+},
+{
+name:'Heavy Tank',
+icon:HeavyTankIcon
+},
+{
+name:'Heavy Tank Destroyer',
+icon:HeavyTankDestroyerIcon
+},
+{
+name:'Infantry',
+icon:InfantryIcon
+},
+{
+name:'Light Amphibious Tank Battalion',
+icon:LightAmphibiousTankBattalionIcon
+},
+{
+name:'Light Flame Tank Company',
+icon:LightFlameTankCompanyIcon
+},
+{
+name:'Light SP Anti-Air',
+icon:LightSPAntiAirIcon
+},
+{
+name:'Light SP Artillery',
+icon:LightSPArtilleryIcon
+},
+{
+name:'Light Tank',
+icon:LightTankIcon
+},
+{
+name:'Light Tank Destroyer',
+icon:LightTankDestroyerIcon
+},
+{
+name:'Light Tank Recon Company',
+icon:LightTankReconCompanyIcon
+},
+{
+name:'Logistics Company',
+icon:LogisticsCompanyIcon
+},
+{
+name:'Maintenance Company',
+icon:MaintenanceCompanyIcon
+},
+{
+name:'Marines',
+icon:MarinesIcon
+},
+{
+name:'Mechanized Infantry',
+icon:MechanizedInfantryIcon
+},
+{
+name:'Medium Amphibious Tank Battalion',
+icon:MediumAmphibiousTankBattalionIcon
+},
+{
+name:'Medium Flame Tank Company',
+icon:MediumFlameTankCompanyIcon
+},
+{
+name:'Medium SP Anti-Air',
+icon:MediumSPAntiAirIcon
+},
+{
+name:'Medium SP Artillery',
+icon:MediumSPArtilleryIcon
+},
+{
+name:'Medium Tank',
+icon:MediumTankIcon
+},
+{
+name:'Medium Tank Destroyer',
+icon:MediumTankDestroyerIcon
+},
+{
+name:'Military Police ',
+icon:MilitaryPoliceIcon
+},
+{
+name:'Modern SP Anti-Air',
+icon:ModernSPAntiAirIcon
+},
+{
+name:'Modern SP Artillery',
+icon:ModernSPArtilleryIcon
+},
+{
+name:'Modern Tank',
+icon:ModernTankIcon
+},
+{
+name:'Modern Tank Destroyer',
+icon:ModernTankDestroyerIcon
+},
+{
+name:'Mot. R. Atrillery',
+icon:Mot.R.AtrilleryIcon
+},
+{
+name:'Motorized Anti-Air',
+icon:MotorizedAntiAirIcon
+},
+{
+name:'Motorized Anti-Tank',
+icon:MotorizedAntiTankIcon
+},
+{
+name:'Motorized Atrillery',
+icon:MotorizedAtrilleryIcon
+},
+{
+name:'Motorized Infantry',
+icon:MotorizedInfantryIcon
+},
+{
+name:'Motorized Recon Company',
+icon:MotorizedReconCompanyIcon
+},
+{
+name:'Mountain',
+icon:MountainIcon
+},
+{
+name:'Paratrooper',
+icon:ParatrooperIcon
+},
+{
+name:'Penal batallion',
+icon:PenalbatallionIcon
+},
+{
+name:'Rocket Artillery',
+icon:RocketArtilleryIcon
+},
+{
+name:'Signal Company',
+icon:SignalCompanyIcon
+},
+{
+name:'Super Heavy SP Anti-Air',
+icon:SuperHeavySPAntiAirIcon
+},
+{
+name:'Super Heavy SP Artillery',
+icon:SuperHeavySPArtilleryIcon
+},
+{
+name:'Super Heavy Tank',
+icon:SuperHeavyTankIcon
+},
+{
+name:'Super Heavy Tank Destroyer',
+icon:SuperHeavyTankDestroyerIcon
+},
+{
+name:'Support Anti-Air',
+icon:SupportAntiAirIcon
+},
+{
+name:'Support Anti-Tank',
+icon:SupportAntiTankIcon
+},
+{
+name:'Support Artillery',
+icon:SupportArtilleryIcon
+},
+{
+name:'Support Rocket Artillery',
+icon:SupportRocketArtilleryIcon
+},
+{
+name:'Truck-drawn Rocket Atrillery',
+icon:TruckdrawnRocketAtrilleryIcon
+},

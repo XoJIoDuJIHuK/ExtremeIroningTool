@@ -1,0 +1,49 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:utilitary_classes="clr-namespace:ExtremeIroningTool.Utilitary_classes"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <utilitary_classes:StringToImageConverter x:Key="StringToImageConverter"/>
+    <utilitary_classes:StatWidthConverter x:Key="StatWidthConverter"/>
+    <utilitary_classes:SummatorConverter x:Key="SummatorConverter"/>
+    <utilitary_classes:ProgressConverter x:Key="ProgressConverter"/>
+    <utilitary_classes:StatNameToImageConverter x:Key="StatNameToImageConverter"/>
+    <utilitary_classes:TerrainTypeToImageConverter x:Key="TerrainTypeToImageConverter"/>
+    <utilitary_classes:MultiplierConverter x:Key="MultiplierConverter"/>
+    <utilitary_classes:GetCenterOfCircleConverter x:Key="GetCenterOfCircleConverter"/>
+    <utilitary_classes:DoubleRoundConverter x:Key="DoubleRoundConverter"/>
+
+    <v:String x:Key="DeleteIcon">./../../Images/Button Icons/trash bucket.png</v:String>
+    <v:String x:Key="AddDivisionIcon">./../../Images/Button Icons/add division.png</v:String>
+    <v:String x:Key="CloseIcon">./../../Images/Button Icons/close.png</v:String>
+    <v:String x:Key="EditIcon">./../../Images/Button Icons/edit.png</v:String>
+
+    <v:String x:Key="HealthStat">./../../Images/Stat Icons/health.png</v:String>
+    <v:String x:Key="OrgStat">./../../Images/Stat Icons/organization.png</v:String>
+    <v:String x:Key="SoftStat">./../../Images/Stat Icons/soft attack.png</v:String>
+    <v:String x:Key="HardStat">./../../Images/Stat Icons/hard attack.png</v:String>
+    <v:String x:Key="DefStat">./../../Images/Stat Icons/defense.png</v:String>
+    <v:String x:Key="BreakStat">./../../Images/Stat Icons/breakthrough.png</v:String>
+    <v:String x:Key="ArmorStat">./../../Images/Stat Icons/armor.png</v:String>
+    <v:String x:Key="PiercingStat">./../../Images/Stat Icons/piercing.png</v:String>
+    <v:String x:Key="WidthStat">./../../Images/Stat Icons/front width.png</v:String>
+    <v:String x:Key="RatioStat">./../../Images/Stat Icons/vehicle ratio.png</v:String>
+
+    <v:String x:Key="ArrowBack">./../../Images/Button Icons/arrow back.png</v:String>
+    <v:String x:Key="SaveIcon">./../../Images/Button Icons/floppy disc.png</v:String>
+    <v:String x:Key="AddArmyGroup">./../../Images/Button Icons/add army group.png</v:String>
+    
+    <v:String x:Key="TriangleToLeft">./../../Images/Button Icons/triangle to left.png</v:String>
+    <v:String x:Key="TriangleToRight">./../../Images/Button Icons/triangle to right.png</v:String>
+    <v:String x:Key="NextTrack">./../../Images/Button Icons/switch track right.png</v:String>
+    <v:String x:Key="PreviousTrack">./../../Images/Button Icons/switch track left.png</v:String>
+    <v:String x:Key="AddTrack">./../../Images/Button Icons/add track.png</v:String>
+    <v:String x:Key="Shuffle">./../../Images/Button Icons/shuffle.png</v:String>
+    <v:String x:Key="Repeat">./../../Images/Button Icons/repeat.png</v:String>
+    
+    <v:String x:Key="Search">./../../Images/Button Icons/loupe.png</v:String>
+    <v:String x:Key="Success">./../../Images/Button Icons/success.png</v:String>
+    
+    <v:String x:Key="Muted">./../../Images/Button Icons/muted.png</v:String>
+    <v:String x:Key="Unmuted">./../../Images/Button Icons/unmuted.png</v:String>
+
+</ResourceDictionary>

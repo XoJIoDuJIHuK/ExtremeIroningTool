@@ -1,0 +1,501 @@
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Groups Icons\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\17.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\18.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\19.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\20.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\21.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\22.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\23.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\24.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Army Icons\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\A.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\AA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\AAC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\AC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\Am.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\AmTank.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\ArmCar.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\ArmCarRC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\AT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\ATC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\BicB.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\Cam.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\Cav.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\CR.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\E.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\FH.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\HAA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\HAmT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\HAT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\HFT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\HSPG.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\HT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\Inf.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LAA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LAmT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LAT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LFT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LRC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LSPG.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\LT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\M.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MAA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MAmT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MAT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\Mech.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MFT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MoAA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MoAT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MoSPG.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MoT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\Motor.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MotorA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MotorAA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MotorAT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MotorRA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MotorRC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\Mountaineers.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MP.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MSPG.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\MT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\P.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\PB.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\RA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\RCC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\SC.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\SHAA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\SHAT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\SHSPG.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\SHT.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Battalion Icons\TDRA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\add army group.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\add army.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\add division.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\add track.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\checkmark.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\close.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\edit.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\error.jpg
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\no-repeat.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\nullGeneral.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\add empty army group.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\arrow back.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\firstCountry.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\floppy disc.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\pause.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\play.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\repeat-all.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\repeat-one.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\secondCountry.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\spinning-circles.gif
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\success.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\switch track left.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\switch track right.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\trash bucket.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\triangle to left.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\triangle to right.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\17.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\18.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\19.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\20.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\21.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\22.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\23.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\24.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\25.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Division Icons\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Fieldmarshalls\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Flags\FRAflag.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Flags\GBRflag.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Flags\GERflag.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Flags\SOVflag.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\17.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\18.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\19.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\20.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\FRA\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\17.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\18.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\19.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\20.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\21.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GBR\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\17.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\18.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\19.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\20.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\21.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\22.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\23.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\24.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\25.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\GER\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\17.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\18.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\19.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\20.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\21.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\22.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\23.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\24.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\25.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\26.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\27.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\28.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\29.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\30.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\31.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Generals\SOV\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Posters\FRA.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Posters\GBR.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Posters\GER.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Posters\SOV.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\armor.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\breakthrough.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\health.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\piercing.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\cursed red sun.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\DACHNIE PEREKRITIYA !.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Explosive six.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\ghostmane - смешарики.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Good J_ICY Celldweller x Instasamka.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\levan dom dom.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Omsk Sun.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\pop u like a 1.Kla$.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\ROLLIN BALLIN.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\slimushkin - ратата).wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Treat Me Like за деньги.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Zero Fire - DoraDuraCORN.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Дабуру-скибиди.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Доктор Ливси идет в Омск.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Дору уронили на пол.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\мистраль хочет быть невестой райдена.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\молдавская заводная.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Почему Caramelldansen.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\РЕБЯТКИ, СМОТРИТЕ ТУТ ЕСТЬ ДЖКБ.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\ФИТ ГОДА! ТУРОК И ЦЫГАН.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.exe
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.deps.json
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.runtimeconfig.json
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.pdb
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Azure.Core.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Azure.Identity.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\ExCSS.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Fizzler.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\HarfBuzzSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Humanizer.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Data.SqlClient.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.EntityFrameworkCore.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.Caching.Memory.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.DependencyModel.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.Logging.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.Options.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Extensions.Primitives.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Identity.Client.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.IdentityModel.Abstractions.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.IdentityModel.Logging.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.IdentityModel.Protocols.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.IdentityModel.Tokens.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.SqlServer.Server.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Web.WebView2.Core.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Web.WebView2.WinForms.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Web.WebView2.Wpf.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Mono.TextTemplating.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\ShimSkiaSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\SkiaSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\SkiaSharp.HarfBuzz.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Svg.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Svg.Custom.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Svg.Model.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Svg.Skia.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\System.Data.SqlClient.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\System.IdentityModel.Tokens.Jwt.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\System.Memory.Data.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\System.Runtime.Caching.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\WpfAnimatedGif.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-arm64\native\WebView2Loader.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x64\native\WebView2Loader.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x86\native\WebView2Loader.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libcairo.2.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libfontconfig.1.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libfreetype.6.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libgdiplus-lighthouse.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libgdiplus.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libgif.7.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libglib-2.0.0.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libintl.8.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libjpeg.9.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libpcre.1.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libpixman-1.0.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libpng16.16.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx-x64\native\libtiff.5.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-arm64\native\sni.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x64\native\sni.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x86\native\sni.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\WinRT.Runtime.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.csproj.AssemblyReference.cache
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\Resources\CountrySelectionCard.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\Resources\MainMenuButtonStyle.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\Resources\NoHoverForButton.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\AddArmyGroup.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ArmyConfigurator.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\AudioPlayer.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\Battle.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\BottomPartArmyConfigurator.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\DivisionContructorWindow.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\DivisionForConstructor.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\GeneralSelectionCard.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\MainWindow.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\SelectDivisionWindow.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\SelectGeneralWindow.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\SelectImageWindow.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewArmyGroupAddCard.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewCountrySelect.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewCountrySelectionCard.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewMainMenu.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\App.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool_Content.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\GeneratedInternalTypeHelper.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool_MarkupCompile.cache
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool_MarkupCompile.lref
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\App.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\AddArmyGroup.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ArmyConfigurator.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\AudioPlayer.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\Battle.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\BottomPartArmyConfigurator.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\DivisionContructorWindow.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\DivisionForConstructor.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\GeneralSelectionCard.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\MainWindow.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\SelectDivisionWindow.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\SelectGeneralWindow.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\SelectImageWindow.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewArmyGroupAddCard.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewCountrySelect.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewCountrySelectionCard.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewMainMenu.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\Resources\PathsToImages.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.g.resources
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.GeneratedMSBuildEditorConfig.editorconfig
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.AssemblyInfoInputs.cache
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.AssemblyInfo.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.csproj.CoreCompileInputs.cache
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.csproj.CopyComplete
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\refint\ExtremeIroningTool.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.pdb
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ExtremeIroningTool.genruntimeconfig.cache
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\ref\ExtremeIroningTool.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewModifiers.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\ViewModifiers.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\loupe.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\1.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\10.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\11.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\12.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\13.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\14.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\15.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\16.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\17.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\18.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\19.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\2.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\20.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\21.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\22.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\23.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\24.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\25.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\26.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\27.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\3.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\4.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\5.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\6.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\7.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\8.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Modifiers\9.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\defense.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\front width.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\hard attack.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\organization.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\soft attack.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Stat Icons\vehicle ratio.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\BattalionEditor.g.cs
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\obj\Debug\net7.0-windows10.0.22621.0\MVVM\Views\BattalionEditor.baml
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\BCrypt.Net-Next.dll
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\desert.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\forest.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\hills.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\jungles.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\marsh.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\mountains.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\plains.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Terrain\urban.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Втюрилась Inc.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\Ребята, прикиньте, тут есть МОХ.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Music\КАДИЛЛАК ПЕРЕМЕН.wav
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\AppIcon.ico
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\AppIcon.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\shuffle off.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\shuffle on.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\sov main menu.mp4
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\ger main menu.mp4
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\gigamenu.mp4
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\muted.png
+D:\_УЧЁБА_\EIT\ExtremeIroningTool\ExtremeIroningTool\bin\Debug\net7.0-windows10.0.22621.0\Images\Button Icons\unmuted.png
